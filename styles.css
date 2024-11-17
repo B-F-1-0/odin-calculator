@@ -1,6 +1,6 @@
 body {
     background-color: lightsalmon;
-    max-width: 500px;
+    max-width: 226px;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -10,27 +10,33 @@ body {
 .calculator {
     font-family: 'Roberta', 'Calibri', 'Arial', sans-serif;
     font-size: 48px;
+    padding: 8px;
+    background-color: gray;
+    border-radius: 5px;
 }
 h1 {
     text-align: center;
 }
 .numberDisplay {
-    border: 1px solid black;
+    border: 1px solid gray;
     background-color: white;
     text-align: right;
     font-weight: 800;
 }
 .buttonSet {
-    border: 1px solid black;
+    border: 1px solid gray;
     background-color: gray;
     padding: 0px;
     margin: 0px;
-    font-size: 0;
+    font-size: 0; /* remove whitespace */
 }
 .buttonSet button {
+    margin: 1px;
     width: 50px;
     height: 50px;
     background-color: azure;
     font-size: 24px;
     font-weight: 500;
+    border: 0px;
+    border-radius: 5px;
 }
