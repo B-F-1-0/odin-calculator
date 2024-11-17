@@ -1,5 +1,5 @@
 body {
-    background-color: lightsalmon;
+    background-color: rgb(230, 253, 255);
     max-width: 226px;
     display:flex;
     flex-direction: column;
@@ -16,6 +16,7 @@ body {
 }
 h1 {
     text-align: center;
+    font-family: 'Ubuntu', 'Roberta', 'Calibri', 'Arial', sans-serif;
 }
 .numberDisplay {
     border: 1px solid gray;
@@ -39,4 +40,16 @@ h1 {
     font-weight: 500;
     border: 0px;
     border-radius: 5px;
+}
+#clear
+{
+    background-color: orange;
+    color: white;
+}
+#plus, #minus, #mult, #divide {
+    background-color: skyblue;
+    color: white;
+}
+#equal {
+    background-color: greenyellow;
 }
